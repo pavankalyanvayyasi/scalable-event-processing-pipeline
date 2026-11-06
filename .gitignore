@@ -1,0 +1,51 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+config/secrets.*
+
+# Generated data files
+data/raw/*
+data/processed/*
+data/output/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and temporary files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
